@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#071f33">
   <link rel="canonical" href="https://ncrachomeservice.in/">
   <meta property="og:title" content="NCR AC Home Service">
-  <meta property="og:description" content="Professional doorstep AC service across Noida, Greater Noida and Ghaziabad.">
+  <meta property="og:description" content="Doorstep AC repair, service, installation and uninstallation across Noida, Greater Noida and Ghaziabad.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ncrachomeservice.in/">
   <link rel="stylesheet" href="styles.css">
@@ -26,9 +26,10 @@
           <small>Noida · Greater Noida · Ghaziabad</small>
         </span>
       </a>
+
       <div class="header-actions">
-        <a class="header-call" href="tel:+919756572466">Call</a>
-        <a class="header-wa" href="https://wa.me/919756572466?text=Hello%2C%20I%20want%20to%20book%20an%20AC%20service." target="_blank" rel="noopener">WhatsApp</a>
+        <a class="header-link desktop-action" href="tel:+919756572466">Call 9756572466</a>
+        <a class="button button-whatsapp" href="https://wa.me/919756572466?text=Hello%2C%20I%20want%20to%20book%20an%20AC%20service." target="_blank" rel="noopener">WhatsApp</a>
       </div>
     </div>
   </header>
@@ -36,122 +37,148 @@
   <main>
     <section class="hero">
       <div class="shell hero-grid">
-        <div class="hero-content">
-          <span class="kicker">Professional doorstep AC care</span>
-          <h1>Your AC, serviced <span>properly.</span></h1>
-          <p class="hero-lead">Fast booking, clear prices and professional home service. No complicated forms. Just call or WhatsApp.</p>
+        <div class="hero-copy">
+          <span class="eyebrow">Doorstep AC Service</span>
+          <h1>AC care that feels <span>professional.</span></h1>
+          <p class="hero-lead">Repair, service, installation and uninstallation at your home with clear pricing and direct booking.</p>
 
           <div class="hero-actions">
-            <a class="primary-action" href="tel:+919756572466">Call 9756572466</a>
-            <a class="whatsapp-action" href="https://wa.me/919756572466?text=Hello%2C%20I%20want%20to%20book%20an%20AC%20service." target="_blank" rel="noopener">Book on WhatsApp</a>
+            <a class="button button-primary" href="tel:+919756572466">Call 9756572466</a>
+            <a class="button button-whatsapp" href="https://wa.me/919756572466?text=Hello%2C%20I%20want%20to%20book%20an%20AC%20service." target="_blank" rel="noopener">Book on WhatsApp</a>
+            <button class="button button-soft" type="button" data-open-booking>Choose service</button>
           </div>
 
-          <div class="quick-prices" aria-label="Service prices">
-            <div><span>AC Service</span><b>₹400</b></div>
-            <div><span>Uninstallation</span><b>₹500</b></div>
-            <div><span>Installation</span><b>₹1,200</b></div>
+          <div class="trust-row" aria-label="Service highlights">
+            <span>Clear pricing</span>
+            <span>Doorstep service</span>
+            <span>Direct booking</span>
           </div>
         </div>
 
-        <div class="hero-media">
-          <div class="image-frame">
-            <img src="assets/ac-servicing.svg" alt="NCR AC Home Service technician servicing a split air conditioner">
+        <div class="slider" data-slider aria-label="AC service work slideshow">
+          <div class="slides">
+            <article class="slide is-active" data-slide>
+              <img src="assets/ac-servicing.svg" alt="Technician servicing a split air conditioner at home" width="720" height="540">
+              <div class="slide-label"><strong>AC Servicing</strong><span>Home service</span></div>
+            </article>
+            <article class="slide" data-slide>
+              <img src="assets/ac-installation.svg" alt="Technician installing a split air conditioner at home" width="720" height="540" loading="lazy">
+              <div class="slide-label"><strong>AC Installation</strong><span>₹1,200</span></div>
+            </article>
+            <article class="slide" data-slide>
+              <img src="assets/ac-outdoor-service.svg" alt="Technician servicing an outdoor AC unit" width="720" height="540" loading="lazy">
+              <div class="slide-label"><strong>Outdoor Unit Check</strong><span>Repair after inspection</span></div>
+            </article>
           </div>
-          <div class="media-note">
-            <span class="pulse"></span>
-            <div><strong>Home service available</strong><small>Noida · Greater Noida · Ghaziabad</small></div>
+
+          <button class="slider-arrow slider-prev" type="button" data-prev aria-label="Previous image">‹</button>
+          <button class="slider-arrow slider-next" type="button" data-next aria-label="Next image">›</button>
+          <div class="slider-dots" role="tablist" aria-label="Choose slide">
+            <button class="dot is-active" type="button" data-dot="0" aria-label="Show slide 1"></button>
+            <button class="dot" type="button" data-dot="1" aria-label="Show slide 2"></button>
+            <button class="dot" type="button" data-dot="2" aria-label="Show slide 3"></button>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="services">
+    <section class="pricing-section" aria-labelledby="pricing-title">
       <div class="shell">
         <div class="section-heading">
-          <span>Simple pricing</span>
-          <h2>Choose what you need.</h2>
-          <p>Everything important is right here. Repair and gas-refilling charges are confirmed after inspection.</p>
+          <span class="eyebrow eyebrow-dark">Simple pricing</span>
+          <h2 id="pricing-title">Know the service charge before you book.</h2>
+          <p>Repair charges depend on the issue and are confirmed after inspection.</p>
         </div>
 
-        <div class="service-grid">
-          <article class="service-card accent">
-            <div class="service-top"><span class="service-number">01</span><span class="service-tag">Popular</span></div>
-            <h3>AC Service</h3>
-            <p>Cleaning and basic performance check for split or window AC.</p>
-            <div class="service-price">₹400</div>
+        <div class="price-grid">
+          <article class="price-card featured-price">
+            <div class="price-icon">❄</div>
+            <div><h3>AC Service</h3><p>Routine servicing and cleaning</p></div>
+            <strong>₹400</strong>
           </article>
-          <article class="service-card">
-            <div class="service-top"><span class="service-number">02</span></div>
-            <h3>AC Uninstallation</h3>
-            <p>Safe removal of the AC unit from your current location.</p>
-            <div class="service-price">₹500</div>
-          </article>
-          <article class="service-card">
-            <div class="service-top"><span class="service-number">03</span></div>
-            <h3>AC Installation</h3>
-            <p>Professional installation at your home or office.</p>
-            <div class="service-price">₹1,200</div>
-          </article>
-          <article class="service-card dark-card">
-            <div class="service-top"><span class="service-number">04</span></div>
-            <h3>AC Repair</h3>
-            <p>Cooling, leakage, noise or operating issue inspection.</p>
-            <div class="service-price small">After inspection</div>
-          </article>
-        </div>
-      </div>
-    </section>
 
-    <section class="work">
-      <div class="shell">
-        <div class="work-heading">
-          <div><span>Our work</span><h2>Professional service, without the clutter.</h2></div>
-          <p>AC servicing, installation and outdoor-unit support at customer locations.</p>
-        </div>
+          <article class="price-card">
+            <div class="price-icon">↓</div>
+            <div><h3>AC Uninstallation</h3><p>Safe AC removal</p></div>
+            <strong>₹500</strong>
+          </article>
 
-        <div class="work-grid">
-          <figure class="work-card work-main">
-            <img src="assets/ac-installation.svg" alt="AC installation at a customer location">
-            <figcaption><strong>AC Installation</strong><span>Careful setup at your location</span></figcaption>
-          </figure>
-          <figure class="work-card">
-            <img src="assets/ac-outdoor-service.svg" alt="Outdoor AC unit service">
-            <figcaption><strong>Outdoor Unit Service</strong><span>Diagnosis and maintenance</span></figcaption>
-          </figure>
-          <figure class="work-card">
-            <img src="assets/ac-servicing.svg" alt="Indoor AC servicing">
-            <figcaption><strong>AC Servicing</strong><span>Clean and professional work</span></figcaption>
-          </figure>
+          <article class="price-card">
+            <div class="price-icon">↑</div>
+            <div><h3>AC Installation</h3><p>Installation at your location</p></div>
+            <strong>₹1,200</strong>
+          </article>
+
+          <article class="price-card">
+            <div class="price-icon">⌁</div>
+            <div><h3>AC Repair</h3><p>Diagnosis and repair</p></div>
+            <strong class="small-price">After inspection</strong>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="booking">
-      <div class="shell booking-box">
+    <section class="service-strip">
+      <div class="shell service-strip-grid">
+        <article><span>01</span><div><strong>Call or WhatsApp</strong><p>Tell us the service you need.</p></div></article>
+        <article><span>02</span><div><strong>Share your location</strong><p>Noida, Greater Noida or Ghaziabad.</p></div></article>
+        <article><span>03</span><div><strong>Get doorstep service</strong><p>No shop visit required.</p></div></article>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="shell final-cta-box">
         <div>
-          <span>Ready when you are</span>
-          <h2>Book your AC service in one tap.</h2>
-          <p>Call or WhatsApp directly. No account, no lengthy form.</p>
+          <span class="eyebrow">Book directly</span>
+          <h2>Need AC service?</h2>
+          <p>One number for calls and WhatsApp: <strong>9756572466</strong></p>
         </div>
-        <div class="booking-actions">
-          <a class="booking-call" href="tel:+919756572466">Call 9756572466</a>
-          <a class="booking-wa" href="https://wa.me/919756572466?text=Hello%2C%20I%20want%20to%20book%20an%20AC%20service." target="_blank" rel="noopener">WhatsApp Booking</a>
+        <div class="final-actions">
+          <a class="button button-light" href="tel:+919756572466">Call now</a>
+          <a class="button button-whatsapp" href="https://wa.me/919756572466?text=Hello%2C%20I%20want%20to%20book%20an%20AC%20service." target="_blank" rel="noopener">WhatsApp</a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="shell footer-inner">
-      <span>NCR AC Home Service</span>
-      <span>9756572466</span>
-      <span>ncrachomeservice.in</span>
+  <div class="help-toast" data-help-toast aria-live="polite">
+    <button class="toast-close" type="button" data-close-toast aria-label="Close">×</button>
+    <div class="toast-icon">❄</div>
+    <div class="toast-copy">
+      <strong>Need AC help?</strong>
+      <span>Call or WhatsApp us directly.</span>
+      <div class="toast-actions">
+        <a href="tel:+919756572466">Call</a>
+        <a href="https://wa.me/919756572466?text=Hello%2C%20I%20need%20AC%20service." target="_blank" rel="noopener">WhatsApp</a>
+      </div>
     </div>
-  </footer>
+  </div>
 
-  <div class="mobile-actions">
-    <a href="tel:+919756572466">Call Now</a>
+  <button class="floating-whatsapp" type="button" data-open-booking aria-label="Open quick booking">WA</button>
+
+  <div class="modal-backdrop" data-booking-modal hidden>
+    <section class="booking-modal" role="dialog" aria-modal="true" aria-labelledby="booking-title">
+      <button class="modal-close" type="button" data-close-booking aria-label="Close booking popup">×</button>
+      <span class="eyebrow eyebrow-dark">Quick booking</span>
+      <h2 id="booking-title">Choose a service</h2>
+      <p>Select a service and continue directly to WhatsApp.</p>
+
+      <div class="quick-services">
+        <button type="button" data-service="AC Service - ₹400"><span>AC Service</span><strong>₹400</strong></button>
+        <button type="button" data-service="AC Uninstallation - ₹500"><span>AC Uninstallation</span><strong>₹500</strong></button>
+        <button type="button" data-service="AC Installation - ₹1,200"><span>AC Installation</span><strong>₹1,200</strong></button>
+        <button type="button" data-service="AC Repair - Inspection required"><span>AC Repair</span><strong>Inspection</strong></button>
+      </div>
+
+      <a class="button button-whatsapp modal-whatsapp" data-modal-whatsapp href="https://wa.me/919756572466?text=Hello%2C%20I%20want%20to%20book%20an%20AC%20service." target="_blank" rel="noopener">Continue on WhatsApp</a>
+    </section>
+  </div>
+
+  <div class="mobile-contact-bar">
+    <a href="tel:+919756572466">Call</a>
     <a href="https://wa.me/919756572466?text=Hello%2C%20I%20want%20to%20book%20an%20AC%20service." target="_blank" rel="noopener">WhatsApp</a>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
